@@ -1,0 +1,62 @@
+/* body {
+    background-color: blue;
+} */
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 1px black;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.teal {
+    background-color: teal;
+}
+.black {
+    background-color: black;
+}
+
+.color-hidden {
+    background-color: grey;
+    background-image: url(./images/Lola.jpg);
+
+}
+
+.card.done {
+    cursor: not-allowed;
+}
+.card.done:hover {
+    box-shadow: none;
+}
+
+/* Score Counter */
+#current-score {
+
+  }
